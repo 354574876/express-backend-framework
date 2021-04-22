@@ -5,7 +5,7 @@ const app = express()
 const route = require('./router')
 require('./model')
 const errorHandler = require('./middleware/error-handler')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 9000
 
 // 请求参数处理
 app.use(morgan('dev'))
